@@ -16,9 +16,6 @@ A functional collection of self-directed Python scripts, relational data models,
 ### 3. Algorithmic Population Modeling (`/population_models`)
 * **population_growth_matrices.ipynb**: Combines deterministic 2x2 state vector transformation models and age-structured Leslie Matrix simulations. Uses linear algebra and matrix multiplication to project generational demographic growth paths over fixed evaluation intervals, completely bypassing recursive execution memory overloads.
 
-### 4. Pharmacokinetic Timeline Simulation (`/pharmacology_models`)
-* **pharmacokinetic_decay.ipynb**: Tracks first-order drug concentration decay timelines hour-by-hour using continuous mathematical decay exponents ($e^{-kt}$) to evaluate systemic clearance parameters.
-
 ## Technical Toolsets Used
 * **Languages & Database:** Python 3, SQL Syntax (PostgreSQL)
 * **Libraries Used:** NumPy, Pandas, CSV, SQLAlchemy, psycopg2, math, io, urllib.request, re
